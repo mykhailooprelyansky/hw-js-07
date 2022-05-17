@@ -1,14 +1,14 @@
-const categorRef = document.querySelector("#categories");
-console.dir(categorRef);
-console.dir(categorRef.lastElementChild.lastElementChild);
+// const categorRef = document.querySelector("#categories");
+// console.dir(categorRef);
+// console.dir(categorRef.lastElementChild.lastElementChild);
 
-console.log(`В списке ${categorRef.childElementCount} категории`);
+// console.log(`В списке ${categorRef.childElementCount} категории`);
 
-const titleItemRef = document.querySelector("h2");
-console.log(`Категория: ${titleItemRef.textContent}`);
+// const titleItemRef = document.querySelector("h2");
+// console.log(`Категория: ${titleItemRef.textContent}`);
 
-const getEl = document.getElementsById("categories");
-console.log(getEl);
+// const getEl = document.getElementsById("categories");
+// console.log(getEl);
 
 // const numbItemRef = document.querySelectorAll(".item");
 // console.log(numbItemRef);
