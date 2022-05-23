@@ -1,4 +1,5 @@
-// const categorRef = document.querySelector("#categories");
+const categorRef = document.querySelector("#categories");
+console.log(categorRef.firstChild);
 // console.dir(categorRef);
 // console.dir(categorRef.lastElementChild.lastElementChild);
 
@@ -14,7 +15,6 @@
 // console.log(numbItemRef);
 // const funct = (arrays) => arrays.forEach((array) => array);
 // console.log(funct(numbItemRef));
-// // console.log(funct(numbItemRef));
+// console.log(funct(numbItemRef));
 
-// //   `Количество елементов: ${numbItemRef.lastElementChild.childElementCount}`
-// // );
+// `Количество елементов: ${numbItemRef.lastElementChild.childElementCount}`;
