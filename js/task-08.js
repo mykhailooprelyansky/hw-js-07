@@ -9,9 +9,7 @@ const inputValue = inputRef.addEventListener("input", (e) => {
     createBoxes(inputValue);
   });
 });
-buttonDestroyRef.addEventListener("click", () => {
-  destroyBoxes(boxesRef);
-});
+buttonDestroyRef.addEventListener("click", destroyBoxes);
 
 function createBoxes(amount) {
   for (let i = 0; i < amount; i++) {
@@ -45,8 +43,8 @@ function doWidthHight(box, count) {
     box.style.height = "30px";
   }
 }
-function destroyBoxes(box) {
-  const links = box.querySelectorAll("div");
+function destroyBoxes() {
+  const links = boxesRef.querySelectorAll("div");
   console.log(links);
   links.forEach((link) => link.remove());
 }
